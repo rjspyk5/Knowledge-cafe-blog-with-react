@@ -1,8 +1,10 @@
+import { Navbar } from "./Components/Navbar/Navbar";
+
 function App() {
   return (
-    <>
-      <h1>Hey</h1>
-    </>
+    <div className="w-9/12 mx-auto">
+      <Navbar></Navbar>
+    </div>
   );
 }
 
