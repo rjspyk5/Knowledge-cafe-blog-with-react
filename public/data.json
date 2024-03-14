@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "posted_date": "2024-03-14",
+      "reading_time": "10 mins",
+      "title": "The Art of Cooking",
+      "hashtag": "#cooking",
+      "image": "https://example.com/cooking.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "posted_date": "2024-03-13",
+      "reading_time": "8 mins",
+      "title": "Traveling the World: My Adventures",
+      "hashtag": "#travel",
+      "image": "https://example.com/travel.jpg"
+    },
+    {
+      "id": 3,
+      "name": "David Brown",
+      "posted_date": "2024-03-12",
+      "reading_time": "15 mins",
+      "title": "Introduction to Quantum Physics",
+      "hashtag": "#physics",
+      "image": "https://example.com/physics.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Emily Johnson",
+      "posted_date": "2024-03-11",
+      "reading_time": "7 mins",
+      "title": "The Benefits of Meditation",
+      "hashtag": "#meditation",
+      "image": "https://example.com/meditation.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Michael Wilson",
+      "posted_date": "2024-03-10",
+      "reading_time": "12 mins",
+      "title": "Photography Tips for Beginners",
+      "hashtag": "#photography",
+      "image": "https://example.com/photography.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Emma Martinez",
+      "posted_date": "2024-03-09",
+      "reading_time": "6 mins",
+      "title": "Healthy Eating Habits",
+      "hashtag": "#health",
+      "image": "https://example.com/healthy.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Daniel Taylor",
+      "posted_date": "2024-03-08",
+      "reading_time": "9 mins",
+      "title": "Investing in Stocks: A Beginner's Guide",
+      "hashtag": "#investing",
+      "image": "https://example.com/investing.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Olivia Brown",
+      "posted_date": "2024-03-07",
+      "reading_time": "11 mins",
+      "title": "Effective Time Management Techniques",
+      "hashtag": "#timemanagement",
+      "image": "https://example.com/timemanagement.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Ethan Miller",
+      "posted_date": "2024-03-06",
+      "reading_time": "14 mins",
+      "title": "Learning a New Language: Tips and Tricks",
+      "hashtag": "#languagelearning",
+      "image": "https://example.com/language.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sophia Garcia",
+      "posted_date": "2024-03-05",
+      "reading_time": "5 mins",
+      "title": "DIY Home Decor Ideas",
+      "hashtag": "#homedecor",
+      "image": "https://example.com/homedecor.jpg"
+    }
+  ]
+  
