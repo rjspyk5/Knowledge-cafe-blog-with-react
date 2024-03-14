@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Blog } from "./Blog";
 
 export const Blogs = () => {
   const [blogDataum, setblogDataum] = useState([]);
@@ -15,5 +16,12 @@ export const Blogs = () => {
     fData();
   }, []);
 
-  return <div>Blogs</div>;
+  return (
+    <div>
+      {blogDataum.map((el) => {
+        console.log(el);
+        return <Blog key={el.id} blog={el} />;
+      })}
+    </div>
+  );
 };
