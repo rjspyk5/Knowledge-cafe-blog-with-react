@@ -30,7 +30,11 @@ export const Navbar = () => {
         className={`flex flex-col md:flex-row space-x-4 ${
           toggle ? "duration-1000 top-20" : "-top-20"
         }  absolute md:static`}
-      ></ul>
+      >
+        {navdata.map((d, idx) => (
+          <Li data={d} key={idx} />
+        ))}
+      </ul>
       <img src={profile} alt="" />
     </div>
   );
