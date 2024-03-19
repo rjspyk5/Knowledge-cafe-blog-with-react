@@ -4,23 +4,28 @@ export const Blog = ({ blog }) => {
   const { hashtag, id, image, name, posted_date, reading_time, title } = blog;
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card bg-base-100 p-3 rounded-xl shadow-xl">
         <figure>
           <img
+            className="rounded-md"
             src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
             alt="Shoes"
           />
         </figure>
-        <div className="card-body">
-          <h2 className="card-title">
-            Shoes!
-            <div className="badge badge-secondary">NEW</div>
-          </h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-end">
-            <div className="badge badge-outline">Fashion</div>
-            <div className="badge badge-outline">Products</div>
+        <div className="space-y-3">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center">
+              <img src="" alt="" />
+              <div>
+                <h1>{name}</h1>
+                <p>{posted_date}</p>
+              </div>
+            </div>
+            <div>{reading_time}</div>
           </div>
+          <p className="font-bold text-3xl">{title}</p>
+          <p>{hashtag}</p>
+          <button className="text-blue-700">Mark as read</button>
         </div>
       </div>
     </div>

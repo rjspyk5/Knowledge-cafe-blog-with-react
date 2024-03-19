@@ -1,23 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { Blog } from "./Blog";
-
+import axios from "axios";
 export const Blogs = () => {
   const [blogDataum, setblogDataum] = useState([]);
   useEffect(() => {
     const fData = async () => {
-      try {
-        const promisedData = await fetch("data.json");
-        const actualData = await promisedData.json();
-        setblogDataum(actualData);
-      } catch (error) {
-        console.log(error);
-      }
+      const data = await axios.get("data.json");
+      setblogDataum(data.data);
     };
     fData();
   }, []);
-
   return (
-    <div>
+    <div className="space-y-5">
       {blogDataum.map((el) => {
         console.log(el);
         return <Blog key={el.id} blog={el} />;
