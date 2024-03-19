@@ -27,8 +27,8 @@ export const Navbar = () => {
         Knowlege Cafe
       </h1>
       <ul
-        className={`flex flex-col md:flex-row space-x-4 ${
-          toggle ? "duration-1000 top-20" : "-top-20"
+        className={`flex shadow-lg flex-col md:flex-row md:space-x-4 ${
+          toggle ? "duration-1000 top-16" : "-top-36"
         }  absolute md:static`}
       >
         {navdata.map((d, idx) => (
