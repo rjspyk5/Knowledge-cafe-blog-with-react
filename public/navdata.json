@@ -1,0 +1,28 @@
+[
+    {
+      "label": "Home",
+      "url": "/",
+      "icon": "home"
+    },
+    {
+      "label": "About",
+      "url": "/about",
+      "icon": "info"
+    },
+    {
+      "label": "Services",
+      "url": "/services",
+      "icon": "settings"
+    },
+    {
+      "label": "Portfolio",
+      "url": "/portfolio",
+      "icon": "folder"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact",
+      "icon": "mail"
+    }
+  ]
+  
