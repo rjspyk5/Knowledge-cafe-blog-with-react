@@ -1,4 +1,5 @@
 import React from "react";
-export const EachBookmark = () => {
-  return <div className="bg-white p-3 rounded-md">EachBookmark</div>;
+import { BookMark } from "./BookMark";
+export const EachBookmark = ({ title }) => {
+  return <div className="bg-white p-3 rounded-md">{title}</div>;
 };

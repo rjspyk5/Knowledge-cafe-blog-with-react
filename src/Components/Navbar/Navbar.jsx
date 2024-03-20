@@ -14,7 +14,7 @@ export const Navbar = () => {
     };
     fetch();
   }, []);
-  console.log(navdata);
+
   return (
     <div className="flex py-5 border-b justify-between items-center ">
       <h1 className="font-bold text-lg lg:text-4xl flex items-center">

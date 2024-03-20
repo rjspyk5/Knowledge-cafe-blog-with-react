@@ -1,6 +1,6 @@
 import React from "react";
 import { EachBookmark } from "./EachBookmark";
-export const BookMark = () => {
+export const BookMark = ({ read }) => {
   return (
     <div>
       <div className="space-y-6">
@@ -9,7 +9,9 @@ export const BookMark = () => {
         </div>
         <div className="bg-[#1111110D] p-5 space-y-4">
           <h1>Bookmarked Blogs : 8</h1>
-          <EachBookmark></EachBookmark>
+          {read.map((el, iDx) => (
+            <EachBookmark title={el[0]} key={iDx} />
+          ))}
         </div>
       </div>
     </div>

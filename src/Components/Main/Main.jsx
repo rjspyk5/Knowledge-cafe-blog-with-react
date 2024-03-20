@@ -5,14 +5,18 @@ import { useLoaderData } from "react-router-dom";
 
 export const Main = () => {
   const data = useLoaderData();
-  console.log(data);
+  const [read, setread] = useState([]);
+  const handleMarkAsRead = (ob, check) => {
+    setread([...read, ob]);
+    console.log(read);
+  };
   return (
     <main className="grid grid-cols-1 lg:grid-cols-3 gap-6">
       <div className="col-span-2 order-2 lg:order-1">
-        <Blogs></Blogs>
+        <Blogs handleMarkAsRead={handleMarkAsRead}></Blogs>
       </div>
       <div className="order-1 lg:order-2">
-        <BookMark></BookMark>
+        <BookMark read={read}></BookMark>
       </div>
     </main>
   );

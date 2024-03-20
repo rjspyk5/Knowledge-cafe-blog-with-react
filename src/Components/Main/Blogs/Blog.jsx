@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 
-export const Blog = ({ blog }) => {
+export const Blog = ({ blog, handleMarkAsRead }) => {
   const {
     hashtag,
     id,
@@ -11,6 +11,7 @@ export const Blog = ({ blog }) => {
     title,
     profile,
   } = blog;
+  const [check, setcheck] = useState(true);
   return (
     <div>
       <div className="card bg-base-100 p-3 rounded-xl shadow-xl">
@@ -42,17 +43,25 @@ export const Blog = ({ blog }) => {
                 <path
                   d="M17.593 3.322C18.693 3.45 19.5 4.399 19.5 5.507V21L12 17.25L4.5 21V5.507C4.5 4.399 5.306 3.45 6.407 3.322C10.1232 2.89063 13.8768 2.89063 17.593 3.322Z"
                   stroke="#111111"
-                  stroke-opacity="0.6"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeOpacity="0.6"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
           </div>
           <p className="font-bold text-3xl">{title}</p>
           <p>{hashtag}</p>
-          <button className="text-blue-700">Mark as read</button>
+          <button
+            onClick={() => {
+              setcheck(false);
+              handleMarkAsRead([title, reading_time]);
+            }}
+            className="text-blue-600"
+          >
+            {check ? " Mark as read" : "readed"}
+          </button>
         </div>
       </div>
     </div>
