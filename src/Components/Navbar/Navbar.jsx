@@ -4,6 +4,8 @@ import { IoMdMenu } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
 import { Li } from "./Li";
 import axios from "axios";
+import { Link } from "react-router-dom";
+
 export const Navbar = () => {
   const [toggle, settoggle] = useState(false);
   const [navdata, setnavdata] = useState([]);
@@ -23,7 +25,7 @@ export const Navbar = () => {
         ) : (
           <IoMdMenu className="md:hidden" onClick={() => settoggle(!toggle)} />
         )}
-        Knowlege Cafe
+        <Link to="/">Knowlege Cafe</Link>
       </h1>
       <ul
         className={`flex flex-col md:flex-row md:space-x-4 ${

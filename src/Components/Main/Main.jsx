@@ -3,6 +3,7 @@ import { Blogs } from "./Blogs/Blogs";
 import { BookMark } from "./BookMark/BookMark";
 import { useLoaderData } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
+import MouseParticles from "react-mouse-particles";
 import "react-toastify/dist/ReactToastify.css";
 export const Main = () => {
   const data = useLoaderData();
@@ -25,6 +26,7 @@ export const Main = () => {
           <BookMark read={read}></BookMark>
         </div>
       </main>
+      <MouseParticles g={1} color="random" cull="col,image-wrapper" />
     </>
   );
 };
