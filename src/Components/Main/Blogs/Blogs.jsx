@@ -13,7 +13,6 @@ export const Blogs = () => {
   return (
     <div className="space-y-5">
       {blogDataum.map((el) => {
-        console.log(el);
         return <Blog key={el.id} blog={el} />;
       })}
     </div>

@@ -6,7 +6,8 @@
       "reading_time": "10 mins",
       "title": "The Art of Cooking",
       "hashtag": "#cooking",
-      "image": "https://example.com/cooking.jpg"
+      "image": "https://iili.io/JX8STLG.jpg",
+      "profile":"https://iili.io/JX8NFqB.png"
     },
     {
       "id": 2,
@@ -15,7 +16,8 @@
       "reading_time": "8 mins",
       "title": "Traveling the World: My Adventures",
       "hashtag": "#travel",
-      "image": "https://example.com/travel.jpg"
+      "image": "https://iili.io/JX8SWEx.jpg",
+      "profile":"https://iili.io/JX88KH7.png"
     },
     {
       "id": 3,
@@ -24,7 +26,8 @@
       "reading_time": "15 mins",
       "title": "Introduction to Quantum Physics",
       "hashtag": "#physics",
-      "image": "https://example.com/physics.jpg"
+      "image": "https://iili.io/JX8U3u9.png",
+      "profile":"https://iili.io/JX88qNe.jpg"
     },
     {
       "id": 4,
@@ -33,7 +36,8 @@
       "reading_time": "7 mins",
       "title": "The Benefits of Meditation",
       "hashtag": "#meditation",
-      "image": "https://example.com/meditation.jpg"
+      "image": "https://iili.io/JX8UC6x.jpg",
+      "profile":"https://iili.io/JX88IKQ.jpg"
     },
     {
       "id": 5,
@@ -42,7 +46,8 @@
       "reading_time": "12 mins",
       "title": "Photography Tips for Beginners",
       "hashtag": "#photography",
-      "image": "https://example.com/photography.jpg"
+      "image": "https://iili.io/JX8SWEx.jpg",
+      "profile":"https://iili.io/JX88XRt.jpg"
     },
     {
       "id": 6,
@@ -51,7 +56,8 @@
       "reading_time": "6 mins",
       "title": "Healthy Eating Habits",
       "hashtag": "#health",
-      "image": "https://example.com/healthy.jpg"
+      "image": "https://iili.io/JX8U3u9.png",
+      "profile":"https://iili.io/JX88IKQ.jpg"
     },
     {
       "id": 7,
@@ -60,7 +66,8 @@
       "reading_time": "9 mins",
       "title": "Investing in Stocks: A Beginner's Guide",
       "hashtag": "#investing",
-      "image": "https://example.com/investing.jpg"
+      "image": "https://iili.io/JX8STLG.jpg",
+      "profile":"https://iili.io/JX88IKQ.jpg"
     },
     {
       "id": 8,
@@ -69,7 +76,8 @@
       "reading_time": "11 mins",
       "title": "Effective Time Management Techniques",
       "hashtag": "#timemanagement",
-      "image": "https://example.com/timemanagement.jpg"
+      "image": "https://iili.io/JX8UC6x.jpg",
+      "profile":"https://iili.io/JX88IKQ.jpg"
     },
     {
       "id": 9,
@@ -78,7 +86,8 @@
       "reading_time": "14 mins",
       "title": "Learning a New Language: Tips and Tricks",
       "hashtag": "#languagelearning",
-      "image": "https://example.com/language.jpg"
+      "image": "https://iili.io/JX8U7na.jpg",
+      "profile":"https://iili.io/JX88IKQ.jpg"
     },
     {
       "id": 10,
@@ -87,7 +96,8 @@
       "reading_time": "5 mins",
       "title": "DIY Home Decor Ideas",
       "hashtag": "#homedecor",
-      "image": "https://example.com/homedecor.jpg"
+      "image": "https://iili.io/JX8U7na.jpg",
+      "profile":"https://iili.io/JX88XRt.jpg"
     }
   ]
   
