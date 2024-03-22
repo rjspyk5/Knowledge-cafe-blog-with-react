@@ -17,7 +17,7 @@ export const Blog = ({ blog, handleMarkAsRead }) => {
       <div className="card bg-base-100 p-3 rounded-xl shadow-xl">
         <figure>
           <img
-            className="rounded-md min-w-[642px] max-h-[363px]"
+            className="rounded-md w-[642px] max-h-[363px]"
             src={image}
             alt="Shoes"
           />
