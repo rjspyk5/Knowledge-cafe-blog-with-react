@@ -1,9 +1,18 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const Li = ({ data: { label, url } }) => {
   return (
-    <Link to={url}>
+    <NavLink
+      to={url}
+      style={({ isActive, isPending, isTransitioning }) => {
+        return {
+          fontWeight: isActive ? "bold" : "",
+          color: isPending ? "red" : "black",
+          viewTransitionName: isTransitioning ? "slide" : "",
+        };
+      }}
+    >
       <li>{label}</li>
-    </Link>
+    </NavLink>
   );
 };
