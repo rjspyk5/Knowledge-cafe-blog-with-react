@@ -4,13 +4,13 @@ export const Li = ({ data: { label, url } }) => {
   return (
     <NavLink
       to={url}
-      style={({ isActive, isPending, isTransitioning }) => {
-        return {
-          fontWeight: isActive ? "bold" : "",
-          color: isPending ? "red" : "black",
-          viewTransitionName: isTransitioning ? "slide" : "",
-        };
-      }}
+      className={({ isActive, isPending, isTransitioning }) =>
+        [
+          isPending ? "pending" : "",
+          isActive ? "text-red-500 font-bold" : "",
+          isTransitioning ? "transitioning" : "",
+        ].join(" ")
+      }
     >
       <li>{label}</li>
     </NavLink>
